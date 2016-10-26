@@ -1,0 +1,1 @@
+var busApp = angular.module('busBooking', ['ngRoute', 'appRoutes','ui.bootstrap','ngAnimate', 'ngSanitize']);
