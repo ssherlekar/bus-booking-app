@@ -1,0 +1,71 @@
+body { }
+.padZero{padding: 0;}
+.textBoxCss{height: 40px;font-size: 16px;border-radius: 0;}
+.ticketSelection{background-color: #124680;color: #fff;border-radius: 0!important;}
+#bus-navigation{margin-bottom: 0;border-radius: 0;background-color: #fff;border: 0;color: #4a4a4a;}
+#bus-navigation li>a{color: #4a4a4a;font-weight: bold;}
+#bus-navigation li>a{color: #fff;background-color: #124680;}
+
+.typeahead-demo .custom-popup-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    background-color: #f9f9f9;
+  }
+
+  .typeahead-demo .custom-popup-wrapper > .message {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    color: #868686;
+  }
+
+  .typeahead-demo .custom-popup-wrapper > .dropdown-menu {
+    position: static;
+    float: none;
+    display: block;
+    min-width: 160px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+
+
+
+
+  .full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
+
+
+
+  .toCityDiv .dropdown-menu,
+  .fromCityDiv .dropdown-menu{width: 100%;margin: 0;border-radius: 0;}
+
+  .toCityDiv .dropdown-menu>li>a,
+  .fromCityDiv .dropdown-menu>li>a{padding: 10px 20px;font-size: 18px;background-color: #fff; color:#124680;}
+
+  .toCityDiv .dropdown-menu>li>a:hover,
+  .fromCityDiv .dropdown-menu>li>a:hover{background-color: #eee;color:#124680;}
+
+
+  /*home.html*/
+  .fromCityDiv{width: 45%;margin-right: 2%;}
+  .toCityDiv{width: 45%;margin-left: 2%}
+  .rotateName{width:6%; height: 40px;border: 0;outline: 0;background-color: #ff4d53;color: #fff;margin-top: 25px;}
+  .dateDiv{width: 45%;margin-top: 20px;}
+  .dateDiv button, 
+  .dateDiv input{border-radius: 0;}
+  .fromDateDiv{width: 48%;margin-right: 2%}
+  .toDateDiv{width: 48%;margin-left: 2%}
+  .inputLable{width: 100%;font-size: 16px;text-align: left;}
